@@ -5,12 +5,20 @@ public class Lamp {
     boolean lampLightsOn = random.nextBoolean();
 
     private String name;
-    Lamp(String name) {
-    }
+
 
     Lamp () {
 
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
 
     public void pushSwitch() {
 
